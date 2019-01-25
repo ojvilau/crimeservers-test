@@ -1,0 +1,27 @@
+table, ul{
+    font-size: 0.8rem;
+}
+.table td, .table th {
+    padding: 0.4rem;
+}
+table {
+    width: 100%;
+}
+.pagination {
+    margin-top: 1rem;
+    justify-content: center;
+}
+.panel-heading {
+    background: rgb(217, 230, 235);
+    padding: 0.75rem;
+}
+.panel-body {
+    background: #fff;
+    padding: 0.75rem;
+}
+.online {
+    color: green;
+}
+.offline {
+    color: red;
+}

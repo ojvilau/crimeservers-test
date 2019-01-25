@@ -1,0 +1,337 @@
+{
+  "data": [
+    {
+      "attributes": {
+        "at_feed": null,
+        "at_free_feed": null,
+        "bots_count": 0,
+        "credentials_count": 0,
+        "credit_cards_count": 0,
+        "crime_server_url": "http://crime_server_1.com/log-in.pavypal-acc.com/signin",
+        "first_seen": "2018-02-05T14:30:18.913843+00:00",
+        "is_false_positive": false,
+        "last_seen": "2018-02-05T14:30:18.913852+00:00",
+        "main_type": "c_and_c",
+        "status": "online",
+        "subtype_name": "USTEAL"
+      },
+      "id": "262962",
+      "links": {
+        "self": "https://mywebsite.com/api/v1/crime-server/262962/"
+      },
+      "relationships": {
+        "fqdn": {
+          "data": {
+            "id": "1004361",
+            "type": "FQDN"
+          },
+          "links": {
+            "related": "https://mywebsite.com/api/v1/fqdn/1004361/"
+          }
+        }
+      },
+      "type": "CrimeServer"
+    },
+    {
+      "attributes": {
+        "at_feed": null,
+        "at_free_feed": null,
+        "bots_count": 0,
+        "credentials_count": 0,
+        "credit_cards_count": 0,
+        "crime_server_url": "http://crime_server_2.com/2bb3b70ece76e29013aca7cce50eda9b",
+        "first_seen": "2018-02-05T14:30:18.875650+00:00",
+        "is_false_positive": false,
+        "last_seen": "2018-02-05T14:30:18.875658+00:00",
+        "main_type": "c_and_c",
+        "status": "online",
+        "subtype_name": "PONY"
+      },
+      "id": "262961",
+      "links": {
+        "self": "https://mywebsite.com/api/v1/crime-server/262961/"
+      },
+      "relationships": {
+        "fqdn": {
+          "data": {
+            "id": "1004360",
+            "type": "FQDN"
+          },
+          "links": {
+            "related": "https://mywebsite.com/api/v1/fqdn/1004360/"
+          }
+        }
+      },
+      "type": "CrimeServer"
+    },
+    {
+      "attributes": {
+        "at_feed": null,
+        "at_free_feed": null,
+        "bots_count": 0,
+        "credentials_count": 0,
+        "credit_cards_count": 0,
+        "crime_server_url": "http://crime_server_3.com",
+        "first_seen": "2018-02-05T14:30:18.837982+00:00",
+        "is_false_positive": false,
+        "last_seen": "2018-02-05T14:30:18.837991+00:00",
+        "main_type": "c_and_c",
+        "status": "online",
+        "subtype_name": "ALINA"
+      },
+      "id": "262960",
+      "links": {
+        "self": "https://mywebsite.com/api/v1/crime-server/262960/"
+      },
+      "relationships": {
+        "fqdn": {
+          "data": {
+            "id": "1004359",
+            "type": "FQDN"
+          },
+          "links": {
+            "related": "https://mywebsite.com/api/v1/fqdn/1004359/"
+          }
+        }
+      },
+      "type": "CrimeServer"
+    },
+    {
+      "attributes": {
+        "at_feed": null,
+        "at_free_feed": null,
+        "bots_count": 0,
+        "credentials_count": 0,
+        "credit_cards_count": 0,
+        "crime_server_url": "http://crime_server_4.com",
+        "first_seen": "2018-02-05T14:30:18.800684+00:00",
+        "is_false_positive": false,
+        "last_seen": "2018-02-05T14:30:18.800697+00:00",
+        "main_type": "c_and_c",
+        "status": "offline",
+        "subtype_name": "ZEUS"
+      },
+      "id": "262959",
+      "links": {
+        "self": "https://mywebsite.com/api/v1/crime-server/262959/"
+      },
+      "relationships": {
+        "fqdn": {
+          "data": {
+            "id": "1004358",
+            "type": "FQDN"
+          },
+          "links": {
+            "related": "https://mywebsite.com/api/v1/fqdn/1004358/"
+          }
+        }
+      },
+      "type": "CrimeServer"
+    },
+    {
+      "attributes": {
+        "at_feed": null,
+        "at_free_feed": null,
+        "bots_count": 0,
+        "credentials_count": 0,
+        "credit_cards_count": 0,
+        "crime_server_url": "http://crime_server_5.com",
+        "first_seen": "2018-02-05T14:30:18.764499+00:00",
+        "is_false_positive": false,
+        "last_seen": "2018-02-05T14:30:18.764508+00:00",
+        "main_type": "c_and_c",
+        "status": "offline",
+        "subtype_name": "PONY"
+      },
+      "id": "262958",
+      "links": {
+        "self": "https://mywebsite.com/api/v1/crime-server/262958/"
+      },
+      "relationships": {
+        "fqdn": {
+          "data": {
+            "id": "1004357",
+            "type": "FQDN"
+          },
+          "links": {
+            "related": "https://mywebsite.com/api/v1/fqdn/1004357/"
+          }
+        }
+      },
+      "type": "CrimeServer"
+    },
+    {
+      "attributes": {
+        "at_feed": null,
+        "at_free_feed": null,
+        "bots_count": 0,
+        "credentials_count": 0,
+        "credit_cards_count": 0,
+        "crime_server_url": "http://crime_server_6.com",
+        "first_seen": "2018-02-05T14:30:18.727401+00:00",
+        "is_false_positive": false,
+        "last_seen": "2018-02-05T14:30:18.727411+00:00",
+        "main_type": "c_and_c",
+        "status": "online",
+        "subtype_name": "ALINA"
+      },
+      "id": "262957",
+      "links": {
+        "self": "https://mywebsite.com/api/v1/crime-server/262957/"
+      },
+      "relationships": {
+        "fqdn": {
+          "data": {
+            "id": "1004356",
+            "type": "FQDN"
+          },
+          "links": {
+            "related": "https://mywebsite.com/api/v1/fqdn/1004356/"
+          }
+        }
+      },
+      "type": "CrimeServer"
+    },
+    {
+      "attributes": {
+        "at_feed": null,
+        "at_free_feed": null,
+        "bots_count": 0,
+        "credentials_count": 0,
+        "credit_cards_count": 0,
+        "crime_server_url": "http://crime_server_7.com/inc/tunes",
+        "first_seen": "2018-02-05T14:30:18.690450+00:00",
+        "is_false_positive": false,
+        "last_seen": "2018-02-05T14:30:18.690460+00:00",
+        "main_type": "c_and_c",
+        "status": "online",
+        "subtype_name": "ZEUS"
+      },
+      "id": "262956",
+      "links": {
+        "self": "https://mywebsite.com/api/v1/crime-server/262956/"
+      },
+      "relationships": {
+        "fqdn": {
+          "data": {
+            "id": "1004355",
+            "type": "FQDN"
+          },
+          "links": {
+            "related": "https://mywebsite.com/api/v1/fqdn/1004355/"
+          }
+        }
+      },
+      "type": "CrimeServer"
+    },
+    {
+      "attributes": {
+        "at_feed": null,
+        "at_free_feed": null,
+        "bots_count": 0,
+        "credentials_count": 0,
+        "credit_cards_count": 0,
+        "crime_server_url": "http://crime_server_8.com",
+        "first_seen": "2018-02-05T14:30:18.653888+00:00",
+        "is_false_positive": false,
+        "last_seen": "2018-02-05T14:30:18.653897+00:00",
+        "main_type": "c_and_c",
+        "status": "online",
+        "subtype_name": "ZEUS"
+      },
+      "id": "262955",
+      "links": {
+        "self": "https://mywebsite.com/api/v1/crime-server/262955/"
+      },
+      "relationships": {
+        "fqdn": {
+          "data": {
+            "id": "1004354",
+            "type": "FQDN"
+          },
+          "links": {
+            "related": "https://mywebsite.com/api/v1/fqdn/1004354/"
+          }
+        }
+      },
+      "type": "CrimeServer"
+    },
+    {
+      "attributes": {
+        "at_feed": null,
+        "at_free_feed": null,
+        "bots_count": 0,
+        "credentials_count": 0,
+        "credit_cards_count": 0,
+        "crime_server_url": "http://crime_server_9.com",
+        "first_seen": "2018-02-05T14:30:18.618013+00:00",
+        "is_false_positive": false,
+        "last_seen": "2018-02-05T14:30:18.618022+00:00",
+        "main_type": "c_and_c",
+        "status": "online",
+        "subtype_name": "PONY"
+      },
+      "id": "262954",
+      "links": {
+        "self": "https://mywebsite.com/api/v1/crime-server/262954/"
+      },
+      "relationships": {
+        "fqdn": {
+          "data": {
+            "id": "1004353",
+            "type": "FQDN"
+          },
+          "links": {
+            "related": "https://mywebsite.com/api/v1/fqdn/1004353/"
+          }
+        }
+      },
+      "type": "CrimeServer"
+    },
+    {
+      "attributes": {
+        "at_feed": null,
+        "at_free_feed": null,
+        "bots_count": 0,
+        "credentials_count": 0,
+        "credit_cards_count": 0,
+        "crime_server_url": "http://crime_server_10.com",
+        "first_seen": "2018-02-05T14:30:18.582106+00:00",
+        "is_false_positive": false,
+        "last_seen": "2018-02-05T14:30:18.582129+00:00",
+        "main_type": "c_and_c",
+        "status": "online",
+        "subtype_name": "PONY"
+      },
+      "id": "262953",
+      "links": {
+        "self": "https://mywebsite.com/api/v1/crime-server/262953/"
+      },
+      "relationships": {
+        "fqdn": {
+          "data": {
+            "id": "1004352",
+            "type": "FQDN"
+          },
+          "links": {
+            "related": "https://mywebsite.com/api/v1/fqdn/1004352/"
+          }
+        }
+      },
+      "type": "CrimeServer"
+    }
+  ],
+  "links": {
+    "first": "https://mywebsite.com/api/v1/crime-server/?page%5Blimit%5D=10",
+    "last": "https://mywebsite.com/api/v1/crime-server/?page%5Blimit%5D=10&page%5Boffset%5D=260970",
+    "next": "https://mywebsite.com/api/v1/crime-server/?page%5Blimit%5D=10&page%5Boffset%5D=10",
+    "prev": null
+  },
+  "meta": {
+    "pagination": {
+      "count": 260974,
+      "limit": 10,
+      "offset": 0
+    }
+  }
+}

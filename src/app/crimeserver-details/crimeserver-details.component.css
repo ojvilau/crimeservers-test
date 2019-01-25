@@ -1,0 +1,25 @@
+.card {
+    display: inline-block;
+}
+div.card-header table th, table td {
+    text-align: center;
+    padding: 2px 10px;
+}
+div.card-body table td {
+    padding: 5px 10px;
+    text-align: left;
+}
+div.card-body table th {
+    padding: 5px 10px;
+    text-align: right;
+}
+.card-graph {
+    display: inline-block;
+    height: 500px;
+    width: 500px;
+}
+
+.card-graph .card-body {
+    height: 100%;
+    margin: auto;
+}

@@ -1,0 +1,21 @@
+.card {
+    border-radius: 0;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    background: #20a8d8;
+    width: 12rem;
+    height: 6rem;
+    font-family: sans-serif;
+}
+.card-title {
+    margin-bottom: 0;
+    font-weight: normal;
+}
+.card-text {
+    font-weight: lighter;
+    font-size: 0.7rem;
+}
+.selected {
+    background: #115770;
+}

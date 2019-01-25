@@ -1,0 +1,45 @@
+<div class="panel panel-default">
+  <div class="panel-heading">Crime Server showing {{ crimeServersTotal }}</div>
+  <div class="panel-body">
+    <!-- search inut -->
+    <div class="input-group input-group-sm mb-3 w-25 mr-2 ml-auto">
+      <div class="input-group-prepend">
+        <span class="input-group-text">@</span>
+      </div>
+      <input type="text" class="form-control" placeholder="Search url..." 
+        #urlSearch (keyup)="search(urlSearch.value)">
+    </div>
+    <!-- crime servers table -->
+    <div class="table-responsive">
+        <table class="table table-sm">
+            <tr>
+              <th>Seen</th>
+              <th>URL</th>
+              <th>Type</th>
+              <th>Subtype</th>
+              <th class="text-center">Status</th>
+              <th>TM Seen</th>
+              <th class="text-center">TM Status</th>
+              <th class="text-center">Evidences</th>
+              <th class="text-center">@API</th>
+              <th class="text-center">@FreeAPI</th>
+              <th class="text-center">Details</th>
+            </tr>
+            <tr *ngFor="let server of crimeServers">
+              <td>{{ server.seen }}</td>
+              <td>{{ server.url }}</td>
+              <td>-</td>
+              <td></td>
+              <td class="text-center"><i class="fa fa-cloud" [class.online]="server.status=='online'" [class.offline]="server.status=='offline'"></i></td>
+              <td>-</td>
+              <td>-</td>
+              <td class="text-center"><i class="fa fa-times" style="color: red;"></i></td>
+              <td class="text-center"><i class="fa fa-question-circle" style="color: red;"></i></td>
+              <td class="text-center"><i class="fa fa-question-circle" style="color: red;"></i></td>
+              <td class="text-center"><a [routerLink]="['/crimeservers', server.id]"><i class="fa fa-search-plus"></i></a></td>
+            </tr>
+          </table>
+    </div>
+  <!-- pagination -->
+  <pagination  class="pagination" [total-items]="crimeServersTotal" [page-size]="queryObj.pageSize" (page-changed)="onPageChange($event)"></pagination>
+</div>
